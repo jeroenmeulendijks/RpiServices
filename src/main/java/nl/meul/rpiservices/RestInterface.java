@@ -1,10 +1,5 @@
 package nl.meul.rpiservices;
 
-import java.net.InetAddress;
-import java.net.NetworkInterface;
-import java.net.SocketException;
-import java.net.UnknownHostException;
-import java.util.Enumeration;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.json.Json;
@@ -19,7 +14,7 @@ import javax.ws.rs.core.Response;
 
 /** The rest interface class.
  */
-@Path("v1/certkit")
+@Path("v1")
 public class RestInterface {
 
     private static final Logger LOGGER = Logger.getLogger(RestInterface.class.getName());

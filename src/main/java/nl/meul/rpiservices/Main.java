@@ -56,7 +56,7 @@ public class Main {
     public void run() {
 
         startServer(UriBuilder
-                .fromUri("http://{host}/tlscertkit")
+                .fromUri("http://{host}/rpiservices")
                 // TODO: detect correct ip for RPI
                 .resolveTemplate("host", "192.168.0.202")
                 //.resolveTemplate("host", "localhost")
